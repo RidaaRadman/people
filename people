@@ -1,0 +1,7 @@
+people=int(input("how many people u wanna to invite :"))
+if(people<10):
+    for i in range(people):
+      name=input(f"enter the {i} people :")
+      print(name)
+elif(people>=10):
+    print("too many  people")
